@@ -1,0 +1,21 @@
+import heapq as h
+k = 7
+li = []*k
+h.heapify(li)
+h.heappush(li,(1,1))
+h.heappush(li,(2,1))
+h.heappush(li,(6,1))
+h.heappush(li,(4,1))
+h.heappush(li,(5,2))
+h.heappush(li,(7,2))
+h.heappush(li,(3,2))
+h.heappush(li,(3,2))
+# print(h.heappushpop(li,8))
+# print(h.h)
+print(h.heappop(li))
+print(h.heappop(li))
+print(h.heappop(li))
+print(h.heappop(li))
+print(h.heappop(li))
+print(h.heappop(li))
+print(h.heappop(li))
